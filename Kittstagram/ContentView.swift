@@ -7,15 +7,19 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentListView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                Text("George Michael")
+                Text("Hank Williams")
+            }.navigationTitle("Cats!")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentListView()
     }
 }

@@ -3,27 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9BB4F5DE258706C2004F0BD6 /* KittstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F5DD258706C2004F0BD6 /* KittstagramApp.swift */; };
-		9BB4F5E0258706C2004F0BD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F5DF258706C2004F0BD6 /* ContentView.swift */; };
+		9BB4F5E0258706C2004F0BD6 /* ContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F5DF258706C2004F0BD6 /* ContentListView.swift */; };
 		9BB4F5E2258706C5004F0BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4F5E1258706C5004F0BD6 /* Assets.xcassets */; };
 		9BB4F5E5258706C5004F0BD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4F5E4258706C5004F0BD6 /* Preview Assets.xcassets */; };
 		9BB4F5F0258706C6004F0BD6 /* KittstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F5EF258706C6004F0BD6 /* KittstagramTests.swift */; };
-		9BB4F5FB258706C6004F0BD6 /* KittstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F5FA258706C6004F0BD6 /* KittstagramUITests.swift */; };
+		9BB4F60D25870710004F0BD6 /* HankBytes in Frameworks */ = {isa = PBXBuildFile; productRef = 9BB4F60C25870710004F0BD6 /* HankBytes */; };
+		9BB4F615258707DE004F0BD6 /* GeorgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F614258707DE004F0BD6 /* GeorgeView.swift */; };
+		9BB4F61A258707E9004F0BD6 /* HankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F619258707E9004F0BD6 /* HankView.swift */; };
+		9BB4F61F25870819004F0BD6 /* BothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F61E25870819004F0BD6 /* BothView.swift */; };
+		9BB4F627258708A9004F0BD6 /* CatPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F626258708A9004F0BD6 /* CatPhotoView.swift */; };
+		9BB4F63025871417004F0BD6 /* ByteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F62F25871417004F0BD6 /* ByteView.swift */; };
+		9BB4F636258714B3004F0BD6 /* ByteCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F635258714B3004F0BD6 /* ByteCollection.swift */; };
+		9BB4F63D25871A08004F0BD6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4F63B25871A08004F0BD6 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9BB4F5EC258706C5004F0BD6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9BB4F5D2258706C2004F0BD6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9BB4F5D9258706C2004F0BD6;
-			remoteInfo = Kittstagram;
-		};
-		9BB4F5F7258706C6004F0BD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BB4F5D2258706C2004F0BD6 /* Project object */;
 			proxyType = 1;
@@ -35,16 +35,21 @@
 /* Begin PBXFileReference section */
 		9BB4F5DA258706C2004F0BD6 /* Kittstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kittstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB4F5DD258706C2004F0BD6 /* KittstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittstagramApp.swift; sourceTree = "<group>"; };
-		9BB4F5DF258706C2004F0BD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BB4F5DF258706C2004F0BD6 /* ContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListView.swift; sourceTree = "<group>"; };
 		9BB4F5E1258706C5004F0BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB4F5E4258706C5004F0BD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BB4F5E6258706C5004F0BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BB4F5EB258706C5004F0BD6 /* KittstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB4F5EF258706C6004F0BD6 /* KittstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittstagramTests.swift; sourceTree = "<group>"; };
 		9BB4F5F1258706C6004F0BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BB4F5F6258706C6004F0BD6 /* KittstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BB4F5FA258706C6004F0BD6 /* KittstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittstagramUITests.swift; sourceTree = "<group>"; };
-		9BB4F5FC258706C6004F0BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB4F614258707DE004F0BD6 /* GeorgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeorgeView.swift; sourceTree = "<group>"; };
+		9BB4F619258707E9004F0BD6 /* HankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HankView.swift; sourceTree = "<group>"; };
+		9BB4F61E25870819004F0BD6 /* BothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BothView.swift; sourceTree = "<group>"; };
+		9BB4F626258708A9004F0BD6 /* CatPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatPhotoView.swift; sourceTree = "<group>"; };
+		9BB4F62F25871417004F0BD6 /* ByteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteView.swift; sourceTree = "<group>"; };
+		9BB4F635258714B3004F0BD6 /* ByteCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteCollection.swift; sourceTree = "<group>"; };
+		9BB4F63C25871A08004F0BD6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9BB4F64025871A15004F0BD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB4F60D25870710004F0BD6 /* HankBytes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9BB4F5E8258706C5004F0BD6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9BB4F5F3258706C6004F0BD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +76,6 @@
 			children = (
 				9BB4F5DC258706C2004F0BD6 /* Kittstagram */,
 				9BB4F5EE258706C6004F0BD6 /* KittstagramTests */,
-				9BB4F5F9258706C6004F0BD6 /* KittstagramUITests */,
 				9BB4F5DB258706C2004F0BD6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +85,6 @@
 			children = (
 				9BB4F5DA258706C2004F0BD6 /* Kittstagram.app */,
 				9BB4F5EB258706C5004F0BD6 /* KittstagramTests.xctest */,
-				9BB4F5F6258706C6004F0BD6 /* KittstagramUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,10 +93,17 @@
 			isa = PBXGroup;
 			children = (
 				9BB4F5DD258706C2004F0BD6 /* KittstagramApp.swift */,
-				9BB4F5DF258706C2004F0BD6 /* ContentView.swift */,
+				9BB4F5DF258706C2004F0BD6 /* ContentListView.swift */,
+				9BB4F614258707DE004F0BD6 /* GeorgeView.swift */,
+				9BB4F619258707E9004F0BD6 /* HankView.swift */,
+				9BB4F61E25870819004F0BD6 /* BothView.swift */,
+				9BB4F626258708A9004F0BD6 /* CatPhotoView.swift */,
+				9BB4F635258714B3004F0BD6 /* ByteCollection.swift */,
+				9BB4F62F25871417004F0BD6 /* ByteView.swift */,
 				9BB4F5E1258706C5004F0BD6 /* Assets.xcassets */,
 				9BB4F5E6258706C5004F0BD6 /* Info.plist */,
 				9BB4F5E3258706C5004F0BD6 /* Preview Content */,
+				9BB4F63B25871A08004F0BD6 /* Localizable.strings */,
 			);
 			path = Kittstagram;
 			sourceTree = "<group>";
@@ -121,15 +125,6 @@
 			path = KittstagramTests;
 			sourceTree = "<group>";
 		};
-		9BB4F5F9258706C6004F0BD6 /* KittstagramUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9BB4F5FA258706C6004F0BD6 /* KittstagramUITests.swift */,
-				9BB4F5FC258706C6004F0BD6 /* Info.plist */,
-			);
-			path = KittstagramUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,12 +135,16 @@
 				9BB4F5D6258706C2004F0BD6 /* Sources */,
 				9BB4F5D7258706C2004F0BD6 /* Frameworks */,
 				9BB4F5D8258706C2004F0BD6 /* Resources */,
+				9BB4F64325872038004F0BD6 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Kittstagram;
+			packageProductDependencies = (
+				9BB4F60C25870710004F0BD6 /* HankBytes */,
+			);
 			productName = Kittstagram;
 			productReference = 9BB4F5DA258706C2004F0BD6 /* Kittstagram.app */;
 			productType = "com.apple.product-type.application";
@@ -168,24 +167,6 @@
 			productReference = 9BB4F5EB258706C5004F0BD6 /* KittstagramTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9BB4F5F5258706C6004F0BD6 /* KittstagramUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BB4F605258706C6004F0BD6 /* Build configuration list for PBXNativeTarget "KittstagramUITests" */;
-			buildPhases = (
-				9BB4F5F2258706C6004F0BD6 /* Sources */,
-				9BB4F5F3258706C6004F0BD6 /* Frameworks */,
-				9BB4F5F4258706C6004F0BD6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9BB4F5F8258706C6004F0BD6 /* PBXTargetDependency */,
-			);
-			name = KittstagramUITests;
-			productName = KittstagramUITests;
-			productReference = 9BB4F5F6258706C6004F0BD6 /* KittstagramUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,10 +183,6 @@
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = 9BB4F5D9258706C2004F0BD6;
 					};
-					9BB4F5F5258706C6004F0BD6 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 9BB4F5D9258706C2004F0BD6;
-					};
 				};
 			};
 			buildConfigurationList = 9BB4F5D5258706C2004F0BD6 /* Build configuration list for PBXProject "Kittstagram" */;
@@ -215,15 +192,18 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
 			);
 			mainGroup = 9BB4F5D1258706C2004F0BD6;
+			packageReferences = (
+				9BB4F60B25870710004F0BD6 /* XCRemoteSwiftPackageReference "HankBytes" */,
+			);
 			productRefGroup = 9BB4F5DB258706C2004F0BD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9BB4F5D9258706C2004F0BD6 /* Kittstagram */,
 				9BB4F5EA258706C5004F0BD6 /* KittstagramTests */,
-				9BB4F5F5258706C6004F0BD6 /* KittstagramUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB4F5E5258706C5004F0BD6 /* Preview Assets.xcassets in Resources */,
+				9BB4F63D25871A08004F0BD6 /* Localizable.strings in Resources */,
 				9BB4F5E2258706C5004F0BD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,22 +226,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BB4F5F4258706C6004F0BD6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BB4F64325872038004F0BD6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BB4F5D6258706C2004F0BD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB4F5E0258706C2004F0BD6 /* ContentView.swift in Sources */,
+				9BB4F627258708A9004F0BD6 /* CatPhotoView.swift in Sources */,
+				9BB4F5E0258706C2004F0BD6 /* ContentListView.swift in Sources */,
+				9BB4F63025871417004F0BD6 /* ByteView.swift in Sources */,
 				9BB4F5DE258706C2004F0BD6 /* KittstagramApp.swift in Sources */,
+				9BB4F61A258707E9004F0BD6 /* HankView.swift in Sources */,
+				9BB4F61F25870819004F0BD6 /* BothView.swift in Sources */,
+				9BB4F615258707DE004F0BD6 /* GeorgeView.swift in Sources */,
+				9BB4F636258714B3004F0BD6 /* ByteCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BB4F5F2258706C6004F0BD6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BB4F5FB258706C6004F0BD6 /* KittstagramUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,12 +280,19 @@
 			target = 9BB4F5D9258706C2004F0BD6 /* Kittstagram */;
 			targetProxy = 9BB4F5EC258706C5004F0BD6 /* PBXContainerItemProxy */;
 		};
-		9BB4F5F8258706C6004F0BD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9BB4F5D9258706C2004F0BD6 /* Kittstagram */;
-			targetProxy = 9BB4F5F7258706C6004F0BD6 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BB4F63B25871A08004F0BD6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB4F63C25871A08004F0BD6 /* nl */,
+				9BB4F64025871A15004F0BD6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9BB4F5FD258706C6004F0BD6 /* Debug */ = {
@@ -347,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -496,44 +495,6 @@
 			};
 			name = Release;
 		};
-		9BB4F606258706C6004F0BD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KittstagramUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.KittstagramUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kittstagram;
-			};
-			name = Debug;
-		};
-		9BB4F607258706C6004F0BD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KittstagramUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.KittstagramUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Kittstagram;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,16 +525,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BB4F605258706C6004F0BD6 /* Build configuration list for PBXNativeTarget "KittstagramUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BB4F606258706C6004F0BD6 /* Debug */,
-				9BB4F607258706C6004F0BD6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BB4F60B25870710004F0BD6 /* XCRemoteSwiftPackageReference "HankBytes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/designatednerd/HankBytes.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BB4F60C25870710004F0BD6 /* HankBytes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BB4F60B25870710004F0BD6 /* XCRemoteSwiftPackageReference "HankBytes" */;
+			productName = HankBytes;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9BB4F5D2258706C2004F0BD6 /* Project object */;
 }

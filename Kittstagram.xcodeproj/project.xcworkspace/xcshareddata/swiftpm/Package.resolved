@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HankBytes",
+        "repositoryURL": "https://github.com/designatednerd/HankBytes.git",
+        "state": {
+          "branch": null,
+          "revision": "929dd5b218b70575c337f9e16692803ed863c559",
+          "version": "0.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
