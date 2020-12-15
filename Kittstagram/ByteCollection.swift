@@ -9,7 +9,7 @@ import SwiftUI
 import HankBytes
 
 struct ByteCollection: View {
-    let bytes = HankByte.allBytes
+    let bytes = HankByte.allBytes.shuffled()
     
     var body: some View {
         GeometryReader { geometry in
